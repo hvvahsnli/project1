@@ -35,8 +35,8 @@ This project is built with Vite for fast performance and can be deployed on plat
 👩‍💻 Author
 Developed by Heseneliyeva Hevva
 
-GitHub: @https://github.com/hvvahsnli
+GitHub:  [@hvvahsnli](https://github.com/hvvahsnli)
 
-Instagram: @hhsnlii
+Instagram: [@hhsnlii](https://instagram.com/hhsnlii)
 
 Email: hvvahsnliyeva@gmail.com
