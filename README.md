@@ -30,7 +30,10 @@ npm run dev
 
 
 📦 Deployment
-This project is built with Vite for fast performance and can be deployed on platforms like Netlify, Vercel, or any static hosting service.
+This project is built with **Vite** for fast performance and can be deployed on platforms like **Netlify**, **Vercel**, or any static hosting service.
+
+The live site is available at: [https://project1-kohl-eight.vercel.app](https://project1-kohl-eight.vercel.app)
+
 
 👩‍💻 Author
 Developed by Heseneliyeva Hevva
