@@ -1,69 +1,42 @@
-# React + TypeScript + Vite
+# Beauty Website 🌸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a fully responsive Beauty website built with modern frontend technologies.
 
-Currently, two official plugins are available:
+## 🚀 Technologies and Tools Used
+- **React + TypeScript** — Component-based modern architecture
+- **Tailwind CSS** — Utility-first CSS framework for fast and clean UI
+- **React Router DOM** — Client-side routing for multi-page navigation
+- **Redux Toolkit** — Global state management
+- **Formik + Yup** — Form handling and validation in the Contact section
+- **EmailJS** — Sending emails directly from the Contact form
+- **React Toastify** — User-friendly toast notifications
+- **Dark Mode / Light Mode** — Theme toggle functionality for a better user experience
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Key Features
+- 💻 **Fully Responsive Design** — Optimized for mobile, tablet, and desktop devices
+- 🌙 **Dark / Light Mode** — Theme switcher for comfortable viewing
+- 📄 **Multi-Page Routing** — Implemented using React Router
+- 📝 **Functional Contact Form** — With validation and email submission via Formik, Yup, and EmailJS
+- 🚀 **Optimized performance** with modern tools like Vite
+- 🛠️ **State Management** with Redux Toolkit
 
-## Expanding the ESLint configuration
+## ⚙️ Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+```bash
+git clone https://github.com/your-repo-link.git
+cd your-project-name
+npm install
+npm run dev
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+📦 Deployment
+This project is built with Vite for fast performance and can be deployed on platforms like Netlify, Vercel, or any static hosting service.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+👩‍💻 Author
+Developed by Heseneliyeva Hevva
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+GitHub: @https://github.com/hvvahsnli
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Instagram: @hhsnlii
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Email: hvvahsnliyeva@gmail.com
