@@ -29,22 +29,15 @@ npm install
 npm run dev
 
 
-## 📦 Deployment
+📦 Deployment
+This project is built with Vite for fast performance and can be deployed on platforms like Netlify or Vercel.
 
-This project is built with **Vite** for fast performance and can be deployed on platforms like **Netlify** or **Vercel**.
-
-The live site is available at: [Visit the website](https://project1-a1dwtq4po-hvvahsnlis-projects.vercel.app)
-
-
-
-
+The live site is available at: Visit the website
 
 
 👩‍💻 Author
 Developed by Heseneliyeva Hevva
 
 GitHub: @hvvahsnli
-
 Instagram: @hhsnlii
-
 Email: hvvahsnliyeva@gmail.com
