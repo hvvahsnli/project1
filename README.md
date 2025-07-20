@@ -30,9 +30,11 @@ npm run dev
 
 
 ## 📦 Deployment
-This project is built with **Vite** for fast performance and can be deployed on platforms like **Netlify**, **Vercel**, or any static hosting service.
+
+This project is built with **Vite** for fast performance and can be deployed on platforms like **Netlify** or **Vercel**.
 
 The live site is available at: [Visit the website](https://project1-a1dwtq4po-hvvahsnlis-projects.vercel.app)
+
 
 
 
