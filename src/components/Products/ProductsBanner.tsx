@@ -12,13 +12,14 @@ export default function ProductsBanner() {
                 <source src="/videos/products-banner.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
+            <div className="hidden lg:block absolute bottom-6 right-6 bg-black/60 backdrop-blur-md rounded-2xl max-w-md p-6 lg:p-8 text-white shadow-xl space-y-3">
 
-            <div className="absolute bottom-6 right-6 md:bottom-10 md:right-10 bg-black/60 backdrop-blur-md rounded-2xl max-w-md p-6 md:p-8 text-white shadow-xl space-y-3">
                 <h1 className="text-3xl md:text-4xl font-extrabold leading-tight">Discover Our<br />Beauty Collection</h1>
                 <p className="text-base md:text-lg leading-relaxed text-gray-300">
                     Elevate your natural glow with premium skincare & cosmetic products.
                 </p>
             </div>
+
         </section>
     );
 }
