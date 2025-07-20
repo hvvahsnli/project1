@@ -18,7 +18,7 @@ const Header = ({ darkMode, setDarkMode }: HeaderProps) => {
     const isOpen = useSelector((state: RootState) => state.ui.isMenuOpen);
 
     return (
-        <header className="bg-white dark:bg-gray-900 shadow-md fixed w-full top-0 left-0 z-20 transition-colors duration-300">
+        <header className="bg-white dark:bg-black shadow-md fixed w-full top-0 left-0 z-20 transition-colors duration-300">
             <div className="max-w-[1500px] mx-auto flex justify-between items-center py-3 px-4">
                 {/* Logo */}
                 <Link

@@ -37,7 +37,7 @@ const Contact = () => {
     });
 
     return (
-        <section className="py-16 bg-pink-50 dark:bg-gray-900" id="contact">
+        <section className="py-16 bg-pink-50 dark:bg-black" id="contact">
             <Toaster position="top-right" reverseOrder={false} />
             <div className="max-w-4xl mx-auto px-4">
                 <h2 className="text-4xl font-bold text-gray-800 dark:text-gray-100 mb-10 text-center">

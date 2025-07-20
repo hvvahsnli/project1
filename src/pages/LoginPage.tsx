@@ -55,9 +55,10 @@ const AuthPage = () => {
     });
 
     return (
-        <div className="min-h-screen bg-gradient-to-r from-pink-400 via-purple-500 to-indigo-600 flex items-center justify-center p-6 transition-colors duration-500 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+        <div className="min-h-screen flex items-center justify-center p-6 transition-colors duration-500 bg-gradient-to-r from-pink-400 via-purple-500 to-indigo-600 dark:bg-gray-900 dark:bg-none">
+
             <ToastContainer />
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg max-w-md w-full p-8 transition-colors duration-500">
+            <div className="bg-white dark:bg-gradient-to-r from-pink-400 via-purple-500 to-indigo-600 rounded-lg shadow-lg max-w-md w-full p-8 transition-colors duration-500">
                 <h2 className="text-3xl font-bold mb-4 text-pink-600 dark:text-pink-400 text-center">
                     {isLogin ? "Login" : "Register"}
                 </h2>

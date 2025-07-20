@@ -5,7 +5,7 @@ import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 export default function About() {
     const navigate = useNavigate();
     return (
-        <section className="py-16 bg-white dark:bg-gray-900" id="about">
+        <section className="py-16 bg-white dark:bg-black" id="about">
             <div className="max-w-6xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
                 <div className="overflow-hidden rounded-2xl shadow-xl">

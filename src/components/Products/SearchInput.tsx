@@ -7,7 +7,7 @@ type SearchInputProps = {
 
 export default function SearchInput({ value, onChange }: SearchInputProps) {
     return (
-        <section className="w-full bg-gray-100 dark:bg-gray-800 py-7 transition-colors">
+        <section className="w-full bg-gray-100 dark:bg-black py-7 transition-colors">
             <div className="max-w-3xl mx-auto px-4">
                 <input
                     type="text"

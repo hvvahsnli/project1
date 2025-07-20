@@ -11,7 +11,7 @@ const About = ({ darkMode, setDarkMode }: AboutProps) => {
     return (
         <>
             <Header darkMode={darkMode} setDarkMode={setDarkMode} />
-            <section className="bg-white dark:bg-gray-900 py-16">
+            <section className="bg-white dark:bg-black py-16">
                 <div className="max-w-6xl mx-auto px-4 text-gray-800 dark:text-gray-100 flex flex-col items-center">
                     <h2 className="text-4xl font-extrabold mb-6 text-center">Who We Are</h2>
 
@@ -43,7 +43,7 @@ const About = ({ darkMode, setDarkMode }: AboutProps) => {
                 </div>
             </section>
 
-            <section id="healthy-skin" className="bg-green-50 dark:bg-gray-900 py-16">
+            <section id="healthy-skin" className="bg-green-50 dark:bg-black py-16">
                 <div className="max-w-5xl mx-auto px-4 text-center">
                     <h2 className="text-4xl font-bold text-green-700 dark:text-green-400 mb-6">Healthy Skin, Happy You</h2>
                     <p className="text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto mb-8 leading-relaxed">
@@ -72,7 +72,7 @@ const About = ({ darkMode, setDarkMode }: AboutProps) => {
                 </div>
             </section>
 
-            <section id="beauty" className="bg-pink-50 dark:bg-gray-900 py-16">
+            <section id="beauty" className="bg-pink-50 dark:bg-black py-16">
                 <div className="max-w-6xl mx-auto px-4 text-center">
                     <h2 className="text-4xl font-bold text-pink-600 dark:text-pink-400 mb-4">Beauty, Perfected</h2>
                     <p className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-8">
@@ -81,19 +81,19 @@ const About = ({ darkMode, setDarkMode }: AboutProps) => {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left mt-10">
                         <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md dark:shadow-black/40 hover:shadow-lg transition">
-                            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-2">Tailored to You</h3>
+                            <h3 className="text-xl font-semibold text-pink-600 dark:text-pink-300 mb-2">Tailored to You</h3>
                             <p className="text-gray-600 dark:text-gray-300">
                                 Every face is unique. Our artists craft looks that highlight your natural beauty while aligning with your style and preferences.
                             </p>
                         </div>
                         <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md dark:shadow-black/40 hover:shadow-lg transition">
-                            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-2">Premium Products</h3>
+                            <h3 className="text-xl font-semibold text-pink-600 dark:text-pink-300 mb-2">Premium Products</h3>
                             <p className="text-gray-600 dark:text-gray-300">
                                 We use only the finest, skin-friendly, and cruelty-free products to ensure long-lasting, radiant results.
                             </p>
                         </div>
                         <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md dark:shadow-black/40 hover:shadow-lg transition">
-                            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-2">Memorable Experience</h3>
+                            <h3 className="text-xl font-semibold text-pink-600 dark:text-pink-300 mb-2">Memorable Experience</h3>
                             <p className="text-gray-600 dark:text-gray-300">
                                 More than a service — it's a moment of transformation. Leave feeling confident, elegant, and empowered.
                             </p>
