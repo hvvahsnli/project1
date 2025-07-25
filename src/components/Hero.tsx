@@ -12,14 +12,14 @@ function Hero() {
             title: "Discover Your Natural Beauty",
             desc: "Join us on a journey to radiant, healthy skin.",
             button: "See More",
-            link: "/about#healthy-skin",
+            link: "/about",
         },
         {
             image: "/images/hero/slider-2.jpg",
             title: "Glow from Within",
             desc: "Nourish your skin with our natural care products.",
             button: "Explore Products",
-            link: "/products#natural-care",
+            link: "/products#product",
         },
         {
             image: "/images/hero/slider-3.jpg",
