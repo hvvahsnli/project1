@@ -23,8 +23,8 @@ This project is a fully responsive Beauty website built with modern frontend tec
 ## ⚙️ Getting Started
 
 ```bash
-git clone https://github.com/your-repo-link.git
-cd your-project-name
+git clone https://github.com/hvvahsnli/project1.git
+cd project1
 npm install
 npm run dev
 
