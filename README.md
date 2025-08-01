@@ -1,6 +1,9 @@
 # Beauty Website 🌸
 <img width="1894" height="956" alt="image" src="https://github.com/user-attachments/assets/eb196230-3a28-4da8-9294-04235c177792" />
 
+<img width="1896" height="957" alt="image" src="https://github.com/user-attachments/assets/852ca7a7-f4bb-4ed5-992d-4f17ff765df3" />
+
+
 
 
 This project is a fully responsive Beauty website built with modern frontend technologies.
